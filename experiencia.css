@@ -1,0 +1,27 @@
+/* Experiência */
+.experience {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.experience-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.experience-item p {
+    margin: 5px 0;
+}

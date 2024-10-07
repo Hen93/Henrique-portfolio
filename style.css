@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+/* Estilos para seções */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.experience, .projects, .about, .contact, .education {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sobre mim */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
+
+.about-text {
+    flex: 2;
+    max-width: 700px;
+}
+
+/* Estilo para formulário de contato */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #e76f51;
+}
